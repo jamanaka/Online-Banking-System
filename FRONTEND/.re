@@ -1,0 +1,50 @@
+FRONTEND_HOME_PAGE({
+    PageCompleted(){
+        Home,
+        Login,
+        register,
+        Contact,
+        bout,
+        Services
+        Uncompleted(
+            None
+        )
+        WorkingOn(
+            None
+        )
+    }
+    
+})
+FRONTEND_USERS_PAGE({
+    PageCompleted(){
+        Dashboard;
+        Uncompleted(
+            Transaction(
+                Deposit,
+                Withdraw,
+                Paybills,
+                Request-StatementSync,
+                Report-Issue,
+            ),
+            History,
+            Payments,
+        )
+        WorkingOn(
+            None
+        )
+    }
+    
+})
+
+BACKEND({
+    PageCompleted(){
+        None
+        Uncompleted(
+            AllPages
+        )
+        Working(
+            Nothing
+        )
+    }
+    
+})
