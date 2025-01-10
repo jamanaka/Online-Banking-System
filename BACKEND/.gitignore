@@ -1,0 +1,11 @@
+# Ignore environment files (e.g., .env)
+.env
+
+# Ignore node_modules
+node_modules/
+
+# Ignore any file that contains sensitive information
+/key/MongoConnect.js
+
+# Ignore logs or other sensitive data
+*.log
